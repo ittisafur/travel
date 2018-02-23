@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+/*-------- Header --------*/
+
+
+.headertop .headertop-btn{
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+
+.headertop-btn li{
+	list-style: none;
+	display: inline-block;
+}
+
+.headertop-btn a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	min-width: 130px;
+	padding: 15px;
+	background-color: #31773d;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 2px;
+	transition: .3s ease;
+}
+.headertop-btn a:hover{
+	text-decoration:none;
+	background:#0c9623;
+}
+
+.headertop-btn .contact a{
+	background-color: #57211e;
+
+}
+
+.mainmenu{
+	margin-top: 55px;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.mainmenu ul li{
+	
+}
+
+.mainmenu ul li a{
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+	display: block;
+	text-transform: uppercase;
+	padding: 10px 50px 10px 50px;
+}
+
+.mainmenu ul li a:hover{
+	text-decoration: underline;
+	background-color: transparent;
+}
+.main-img{
+	width: 100%;
+}
+.banner-items{
+	position: relative;
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+	margin: 10px 0px 30px 0px;
+}
+.banner{
+	position: relative;
+}
+
+.banner .banner-img img{
+	width: 100%;
+}
+
+.banner-texts{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.banner-texts h2{
+	margin: 0;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #004652;
+    text-shadow: 1px 1px 3px #FFF,-1px 1px 1px #FFF,3px 2px 0 #FFF,-1px 3px 0 #FFF,3px 2px 0 #FFF;
+    font-style: italic;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+
+/*--------- Footer --------*/
+
+
+footer{
+	margin-top: 50px;
+}
+.footer{
+	background: #8f5f56;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-menu ul{
+	list-style: none;
+}
+.footer-menu ul li{
+	display: inline-block;
+}
+.footer-menu ul li a{
+	color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    padding: 10px 44px;
+    display: block;
+
+}
+
+.footer .copyright p{
+	color: #fff;
+	font-size: 16px;
+}
+
+.copyright pre{
+	background-color: #8f5f56;
+    border: none;
+    color: #fff;
+
+}
+
+.copyright pre a{
+	color: #e3e3e3;
+	font-weight: bold;
+}
+
+/*---------- Contents ----------*/
+
+.contents{
+	clear: both;
+	text-align: center;
+	font-size: 30px;
+}
+
+.contents h2{
+	padding-bottom: 25px;
+}
+
+.contentslist ul{
+	list-style: none;
+	padding: 0;
+}
+
+.contentslist{
+	margin: 5px 0px 30px 0px;
+}
+
+/*----------Promotion Contents ----------*/
+
+.promotion-contents{
+	margin: 20px 0px 40px 0px;
+}
+
+.promotional-content ul{
+	padding-left: 15px;
+}
+
+.promotional-content ul li{
+	display: ;
+	font-size: 16px;
+	color: #000;
+	position: relative;
+}
+.promotional-content ul li a{
+	color: #31773d;
+}
+
+
+.link li{
+	width: 48%;
+	display: inline-block;
+}
+
+.link li:before{
+	position: absolute;
+    content: "\00b7";
+    left: -17px;
+    font-size: 40px;
+    top: -19px;
+}
+
+.single-promotion img{
+	width: 100%;
+}
+
+/*---------- Video ----------*/
+.video-inner{
+	padding: 0px 80px;
+}
+
+.video{
+	position: relative;
+}
+
+.video:before{
+	content: "";
+    position: absolute;
+    top: 420px;
+    left: -100px;
+    background: transparent url(../img/momkid.png) no-repeat scroll 0 0;
+    width: 196px;
+    height: 204px;
+    z-index: -1;
+}
+.video:after{
+	content: "";
+    position: absolute;
+    top: 420px;
+    right: -45px;
+    background: transparent url(../img/momkid.png) no-repeat scroll 0 0;
+    width: 196px;
+    height: 204px;
+    z-index: -1;
+}
+
+.video p{
+	    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+/*--------- Helper Classes ---------*/
+.nopad{	padding: 0; }
+
+.nopadleft{	padding-left: 0px; }
+
+.nopadright{ padding-right: 0px; }
+
+.clearfloats{clear: both;}
+.fright{float: right;}
+.fleft{float: left;}
+
+
+/*---------- Fixes ----------*/
+.topheader{
+	clear: both;
+}
+
+
+
